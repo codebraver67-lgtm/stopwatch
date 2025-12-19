@@ -1,6 +1,7 @@
 body{
-    background: linear-gradient(to right, rgb(0, 149, 255) 0%, rgb(104, 151, 218) 50%, rgb(202, 227, 242) 100%);
-}
+    background: linear-gradient(to right, #004D85 0%, #166299 50%, #cae3f2 100%);
+                               
+}  
 #title{
     display: flex;
     flex-direction: column;
@@ -14,9 +15,10 @@ h1{
     color: rgb(240, 245, 255);
     font-size: 5vw;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: all 0.4s ease-in-out;
 }
 p{
-    color: #0E94F9;
+    color: #235c87;
     background-color: azure;
     font-size: 100px;
 }
@@ -25,11 +27,17 @@ button{
     height: 5vw;
     margin: 3vw;
     border-radius: 8px;
-    color: rgb(88, 130, 255);
-    border-color: azure;
+    color: rgb(71, 91, 154);
+    border-color: #f0ffff;
     font-size: 2.8vw;
+    transition: all 0.4s ease-in-out;
 }
 button:hover{
-    width: 20vw;
-    height: 9vw;
+    color: azure;
+    background: linear-gradient(to right, #004D85 0%, #166299 50%, #cae3f2 100%);
+    transform: scale(1.3);
+}
+h1:hover{
+    color: azure;
+    transform: scale(1.3);
 }

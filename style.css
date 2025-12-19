@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to right, rgb(0, 149, 255) 0%, rgb(104, 151, 218) 50%, rgb(202, 227, 242) 100%);
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#buttons{
+    display: inline-flex;
+}
+h1{
+    color: rgb(240, 245, 255);
+    font-size: 5vw;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+p{
+    color: #0E94F9;
+    background-color: azure;
+    font-size: 100px;
+}
+button{
+    width: 150px;
+    height: 5vw;
+    margin: 3vw;
+    border-radius: 8px;
+    color: rgb(88, 130, 255);
+    border-color: azure;
+    font-size: 2.8vw;
+}
+button:hover{
+    width: 20vw;
+    height: 9vw;
+}
